@@ -1,13 +1,63 @@
+.hero {
+  width: 90%;
+  margin: 0 auto;
+  .current-program-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .current-program-container {
   h2 {
-  	width: 368px;
+    width: 368px;
   	height: 37.9px;
   	font-family: Montserrat;
   	font-size: 15px;
   	letter-spacing: 0.2px;
   	text-align: left;
   	color: #202020;
-}
+    font-size: 12px;
+  	font-weight: bold;
+  	color: #48a2ba;
 
   }
+  p {
+    width: 368px;
+  	height: 37.9px;
+  	font-family: Montserrat;
+  	font-size: 15px;
+  	letter-spacing: 0.2px;
+  	text-align: left;
+  	color: #202020;
+  }
+
+}
+
+.hero-heading {
+  width: 241px;
+	height: 37.9px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #2e0a3a;
+}
+.hero-words {
+  width: 241px;
+	height: 37.9px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #2e0a3a;
+  font-size: 15px;
+	font-weight: normal;
+	color: #202020;
+}
+.semesters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
