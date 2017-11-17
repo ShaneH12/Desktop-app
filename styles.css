@@ -46,11 +46,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-
 .side-navbar {
   width: 220px;
   height: 720px;
-  background-color: #1b3c50; }
+  background-color: #1b3c50;
+  float: left; }
 
 #profile-picture {
   height: 100px;
@@ -88,5 +88,4 @@ table {
     color: #f7f7f7;
     text-decoration: none; }
 
-
-
+/*# sourceMappingURL=styles.css.map */
