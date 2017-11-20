@@ -46,29 +46,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-
 .hero {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-bottom: 2px solid #6291a9; }
   .hero .current-program-container {
     display: flex;
     flex-direction: column; }
 
 .current-program-container h2 {
-  width: 368px;
   height: 37.9px;
-  font-family: Montserrat;
-  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.2px;
   text-align: left;
-  color: #202020;
   font-size: 12px;
   font-weight: bold;
   color: #48a2ba; }
 .current-program-container p {
-  width: 368px;
   height: 37.9px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   letter-spacing: 0.2px;
   text-align: left;
@@ -143,6 +139,5 @@ table {
     line-height: 2.82;
     color: #f7f7f7;
     text-decoration: none; }
-
 
 /*# sourceMappingURL=styles.css.map */
