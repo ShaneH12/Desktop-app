@@ -140,4 +140,37 @@ table {
     color: #f7f7f7;
     text-decoration: none; }
 
+.home-font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #1b3c50;
+  font-weight: bold; }
+
+.header-date {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #1b3c50;
+  padding-bottom: 10px; }
+
+.date-logout-stack {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #52a5af; }
+
+.header-margin {
+  padding: 20px 37px 0px 0px; }
+
+.content-divider {
+  height: 2px;
+  background-color: #6291a9;
+  margin: 12px 37px 20px 27px; }
+
 /*# sourceMappingURL=styles.css.map */
