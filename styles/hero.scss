@@ -1,6 +1,7 @@
 .hero {
   width: 90%;
   margin: 0 auto;
+  border-bottom: 2px solid #6291a9;
   .current-program-container {
     display: flex;
     flex-direction: column;
@@ -9,22 +10,18 @@
 
 .current-program-container {
   h2 {
-    width: 368px;
   	height: 37.9px;
-  	font-family: Montserrat;
-  	font-size: 15px;
+  	font-family: $font-mont;
   	letter-spacing: 0.2px;
   	text-align: left;
-  	color: #202020;
     font-size: 12px;
   	font-weight: bold;
   	color: #48a2ba;
 
   }
   p {
-    width: 368px;
   	height: 37.9px;
-  	font-family: Montserrat;
+  	font-family: $font-mont;
   	font-size: 15px;
   	letter-spacing: 0.2px;
   	text-align: left;
