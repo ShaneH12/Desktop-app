@@ -1,242 +1,49 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+/*
+Error: Invalid CSS after "...ort "variables"": expected "{", was ";"
+        on line 61 of styles/styles.scss
+
+56: 
+57: @import "hero";
+58: =======
+59: 
+60: 
+61: @import "variables";
+62: @import "hero";
+63: @import "homepage-content";
+64: @import "sidebar";
+65: 
+66: @import "homepage-content";
+
+Backtrace:
+styles/styles.scss:61
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-.background-color {
-  background-color: #f7f7f7; }
-
-.hero {
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 2px solid #6291a9; }
-  .hero .current-program-container {
-    display: flex;
-    flex-direction: column; }
-
-.current-program-container h2 {
-  height: 37.9px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.2px;
-  text-align: left;
-  font-size: 12px;
-  font-weight: bold;
-  color: #48a2ba; }
-.current-program-container p {
-  height: 37.9px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #202020; }
-
-.hero-heading {
-  width: 241px;
-  height: 37.9px;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #2e0a3a; }
-
-.hero-words {
-  width: 241px;
-  height: 37.9px;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #2e0a3a;
-  font-size: 15px;
-  font-weight: normal;
-  color: #202020; }
-
-.semesters-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.side-navbar {
-  width: 220px;
-  height: 720px;
-  background-color: #1b3c50;
-  float: left;
-  margin-right: 27px; }
-
-#profile-picture {
-  height: 100px;
-  width: 100px;
-  margin-top: 44px;
-  margin-left: 55px;
-  border-radius: 50%; }
-
-.profile-name {
-  width: 220px;
-  height: 19px;
-  padding-top: 20px;
-  padding-bottom: 27px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #f7f7f7; }
-
-.sidebar-container-content {
-  padding-left: 21.5px; }
-  .sidebar-container-content .profile-header {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    line-height: 2.38;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #f7f7f7; }
-  .sidebar-container-content .profile-links a {
-    padding-left: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 2.82;
-    color: #f7f7f7;
-    text-decoration: none; }
-
-
-.date-event-container {
-  text-align: right; }
-
-.date-event h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.75;
-  letter-spacing: 0.2px;
-  color: #59aac0; }
-
-.bottom-border {
-  width: 90%;
-  height: 2px;
-  background-color: #6291a9;
-  margin: 50px; }
-
-.titles {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.75;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #48a2ba; }
-
-.heading-paragraph h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  color: #202020; }
-.heading-paragraph p {
-  font-family: "Roboto Slab", serif;
-  font-size: 13px;
-  line-height: 1.62;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #373737; }
-.heading-paragraph a {
-  color: #33c7ba;
-  text-decoration: none;
-  font-family: "Roboto Slab", serif; }
-=======
-.home-font {
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  letter-spacing: 0.2px;
-  color: #1b3c50;
-  font-weight: bold; }
-
-.header-date {
-  display: flex;
-  justify-content: flex-end;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
-  color: #1b3c50;
-  padding-bottom: 10px; }
-
-.date-logout-stack {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  letter-spacing: 0.2px;
-  color: #52a5af; }
-
-.header-margin {
-  padding: 20px 37px 0px 0px; }
-
-.content-divider {
-  height: 2px;
-  background-color: #6291a9;
-  margin: 12px 37px 20px 27px; }
-
-.enrolled-courses {
-  padding-top: 17px;
-  display: flex;
-  flex-flow: column; }
-  .enrolled-courses h3 {
-    padding-bottom: 7px; }
-
-.enrolled-currentgrade {
-  display: flex; }
-
-.current-grade {
-  display: flex;
-  flex-flow: column;
-  height: 70px;
-  width: 114px; }
-
-
-/*# sourceMappingURL=styles.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ort \"variables\"\": expected \"{\", was \";\"\A         on line 61 of styles/styles.scss\A \A 56: \A 57: @import \"hero\";\A 58: =======\A 59: \A 60: \A 61: @import \"variables\";\A 62: @import \"hero\";\A 63: @import \"homepage-content\";\A 64: @import \"sidebar\";\A 65: \A 66: @import \"homepage-content\";"; }
