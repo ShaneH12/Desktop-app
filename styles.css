@@ -179,17 +179,43 @@ table {
 .enrolled-courses {
   padding-top: 17px;
   display: flex;
-  flex-flow: column; }
+  flex-flow: column;
+  justify-content: flex-start; }
   .enrolled-courses h3 {
     padding-bottom: 7px; }
 
 .enrolled-currentgrade {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .current-grade {
-  display: flex;
-  flex-flow: column;
+  margin: 21px 70px 0px 0px;
   height: 70px;
-  width: 114px; }
+  width: 114px;
+  background-color: white; }
+
+.tenmont {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #4ca2b9;
+  text-align: center;
+  padding-top: 8px; }
+
+.current-percent-font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #33c7ba;
+  padding-top: 7px; }
+
+.percent-class-container {
+  width: 345px;
+  height: 190px;
+  background-color: white;
+  display: flex; }
 
 /*# sourceMappingURL=styles.css.map */
