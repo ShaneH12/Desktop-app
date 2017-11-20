@@ -48,7 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.background-color{
+	background-color: #f7f7f7;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
 
@@ -57,3 +59,4 @@ table {
 @import "homepage-content";
 @import "sidebar";
 @import "header";
+@import "grades-content";
