@@ -105,7 +105,8 @@ table {
   width: 220px;
   height: 720px;
   background-color: #1b3c50;
-  float: left; }
+  float: left;
+  margin-right: 27px; }
 
 #profile-picture {
   height: 100px;
@@ -143,6 +144,51 @@ table {
     color: #f7f7f7;
     text-decoration: none; }
 
+
+.date-event-container {
+  text-align: right; }
+
+.date-event h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  color: #59aac0; }
+
+.bottom-border {
+  width: 90%;
+  height: 2px;
+  background-color: #6291a9;
+  margin: 50px; }
+
+.titles {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48a2ba; }
+
+.heading-paragraph h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  color: #202020; }
+.heading-paragraph p {
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  line-height: 1.62;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #373737; }
+.heading-paragraph a {
+  color: #33c7ba;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif; }
+=======
 .home-font {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
@@ -191,5 +237,6 @@ table {
   flex-flow: column;
   height: 70px;
   width: 114px; }
+
 
 /*# sourceMappingURL=styles.css.map */

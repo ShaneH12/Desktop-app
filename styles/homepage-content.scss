@@ -1,0 +1,56 @@
+.date-event-container {
+    text-align: right;
+}
+.date-event {
+
+  h4 {
+    font-family: $font-mont;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    color: #59aac0;
+  }
+
+
+}
+
+.bottom-border {
+  width: 90%;
+  height: 2px;
+  background-color: #6291a9;
+  margin: 50px;
+}
+
+.titles {
+  font-family: $font-mont;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48a2ba;
+}
+
+.heading-paragraph {
+  h2 {
+    font-family: $font-mont;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #202020;
+  }
+  p {
+    font-family: $font-robo;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #373737;
+    }
+    a {
+      color: #33c7ba;
+      text-decoration: none;
+      font-family: $font-robo;
+    }
+  }
