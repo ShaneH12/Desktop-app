@@ -18,3 +18,22 @@
     padding-bottom: 20px;
   }
 }
+
+.view-as {
+  font-family: $font-mont;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: right;
+  padding-right: 37px;
+  margin-top: -6px;
+  color: #2e0a3a;
+  span {
+    color: #2fcfba;
+    padding: 8px;
+  }
+}
+
+.schedule-container {
+  padding-top: 17px;
+}

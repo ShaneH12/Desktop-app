@@ -60,3 +60,15 @@
       font-family: $font-robo;
     }
   }
+
+.scroll {
+  width: 70%;
+  height: 195px;
+  overflow: scroll;
+}
+
+.scroll-2 {
+  height: 150px;
+  width: 70%;
+  overflow: scroll;
+}
