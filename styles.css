@@ -101,19 +101,38 @@ table {
   flex-direction: row;
   justify-content: space-between; }
 
-.date-event h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.75;
-  letter-spacing: 0.2px;
-  color: #59aac0; }
-.date-event h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  color: #202020; }
+.date-event-container {
+  padding-top: 17px; }
+
+.date-event {
+  text-align: right;
+  padding-right: 40px; }
+  .date-event h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    color: #59aac0; }
+  .date-event h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    padding-bottom: 23px;
+    color: #202020; }
+  .date-event h3 {
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: -300px; }
+  .date-event #event-word {
+    margin-top: -100px;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px; }
 
 .bottom-border {
   width: 90%;
@@ -130,23 +149,27 @@ table {
   text-align: left;
   color: #48a2ba; }
 
-.heading-paragraph h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  color: #202020; }
-.heading-paragraph p {
-  font-family: "Roboto Slab", serif;
-  font-size: 13px;
-  line-height: 1.62;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #373737; }
-.heading-paragraph a {
-  color: #33c7ba;
-  text-decoration: none;
-  font-family: "Roboto Slab", serif; }
+.heading-paragraph {
+  width: 368px; }
+  .heading-paragraph h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #202020;
+    padding-top: 10px;
+    padding-bottom: 8px; }
+  .heading-paragraph p {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #373737; }
+  .heading-paragraph a {
+    color: #33c7ba;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; }
 
 .scroll {
   width: 70%;
@@ -201,19 +224,38 @@ table {
     color: #f7f7f7;
     text-decoration: none; }
 
-.date-event h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.75;
-  letter-spacing: 0.2px;
-  color: #59aac0; }
-.date-event h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  color: #202020; }
+.date-event-container {
+  padding-top: 17px; }
+
+.date-event {
+  text-align: right;
+  padding-right: 40px; }
+  .date-event h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    color: #59aac0; }
+  .date-event h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    padding-bottom: 23px;
+    color: #202020; }
+  .date-event h3 {
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: -300px; }
+  .date-event #event-word {
+    margin-top: -100px;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px; }
 
 .bottom-border {
   width: 90%;
@@ -230,23 +272,27 @@ table {
   text-align: left;
   color: #48a2ba; }
 
-.heading-paragraph h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  color: #202020; }
-.heading-paragraph p {
-  font-family: "Roboto Slab", serif;
-  font-size: 13px;
-  line-height: 1.62;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #373737; }
-.heading-paragraph a {
-  color: #33c7ba;
-  text-decoration: none;
-  font-family: "Roboto Slab", serif; }
+.heading-paragraph {
+  width: 368px; }
+  .heading-paragraph h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #202020;
+    padding-top: 10px;
+    padding-bottom: 8px; }
+  .heading-paragraph p {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #373737; }
+  .heading-paragraph a {
+    color: #33c7ba;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; }
 
 .scroll {
   width: 70%;
