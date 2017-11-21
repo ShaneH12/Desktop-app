@@ -1,24 +1,38 @@
 .date-event-container {
-
+  padding-top: 17px;
 }
 .date-event {
-
+  text-align: right;
+  padding-right: 40px;
   h4 {
     font-family: $font-mont;
     font-size: 12px;
     font-weight: bold;
     line-height: 1.75;
     letter-spacing: 0.2px;
+    padding-right: 40px;
     color: #59aac0;
   }   h2 {
       font-family: $font-mont;
       font-size: 15px;
       line-height: 1.4;
       letter-spacing: 0.2px;
+      padding-right: 40px;
+      padding-bottom: 23px;
       color: #202020;
     }
-
-
+    h3 {
+      text-align: right;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      margin-top: -300px;
+    }
+    #event-word {
+      margin-top: -100px;
+      text-align: right;
+      padding-right: 40px;
+      padding-bottom: 10px;
+    }
 }
 
 .bottom-border {
@@ -39,12 +53,15 @@
 }
 
 .heading-paragraph {
+  width: 368px;
   h2 {
     font-family: $font-mont;
     font-size: 15px;
     line-height: 1.4;
     letter-spacing: 0.2px;
     color: #202020;
+    padding-top: 10px;
+    padding-bottom: 8px;
   }
   p {
     font-family: $font-robo;
