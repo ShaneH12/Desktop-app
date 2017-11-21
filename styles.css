@@ -387,4 +387,66 @@ table {
 .schedule-container {
   padding-top: 17px; }
 
+.table-container {
+  padding-top: 17px; }
+
+table {
+  margin-top: 37px;
+  border: 1px solid white; }
+
+.table-headers {
+  background-color: rgba(47, 207, 186, 0.15);
+  width: 134px;
+  height: 50px; }
+  .table-headers th {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #2e0a3a;
+    padding-top: 25px;
+    border: 1px solid white; }
+
+.table-classes-2 {
+  width: 134px;
+  height: 170px;
+  background-color: #1b3c50; }
+  .table-classes-2 td {
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    padding-top: 85px;
+    text-align: center;
+    color: #f7f7f7;
+    border: 1px solid white; }
+
+.classes {
+  width: 134px;
+  height: 40px;
+  background-color: #1b3c50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-top: 20px;
+  color: #f7f7f7;
+  border: 1px solid white; }
+
+#empty-class {
+  width: 134px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+.empty-blocks {
+  height: 70px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+.empty-block-2 {
+  height: 20px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+#wed-class {
+  margin-top: -100px; }
+
 /*# sourceMappingURL=styles.css.map */
