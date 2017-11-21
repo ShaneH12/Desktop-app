@@ -46,57 +46,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.hero {
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 2px solid #6291a9; }
-  .hero .current-program-container {
-    display: flex;
-    flex-direction: column; }
-
-.current-program-container h2 {
-  height: 37.9px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.2px;
-  text-align: left;
-  font-size: 12px;
-  font-weight: bold;
-  color: #48a2ba; }
-.current-program-container p {
-  height: 37.9px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #202020; }
-
-.hero-heading {
-  width: 241px;
-  height: 37.9px;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #2e0a3a; }
-
-.hero-words {
-  width: 241px;
-  height: 37.9px;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #2e0a3a;
-  font-size: 15px;
-  font-weight: normal;
-  color: #202020; }
-
-.semesters-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+.background-color {
+  background-color: #f7f7f7; }
 
 .hero {
   width: 90%;
@@ -149,12 +100,147 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+
+.hero {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid #6291a9; }
+  .hero .current-program-container {
+    display: flex;
+    flex-direction: column; }
+
+.current-program-container h2 {
+  height: 37.9px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #48a2ba; }
+.current-program-container p {
+  height: 37.9px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #202020; }
+
+.hero-heading {
+  width: 241px;
+  height: 37.9px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2e0a3a; }
+
+.hero-words {
+  width: 241px;
+  height: 37.9px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2e0a3a;
+  font-size: 15px;
+  font-weight: normal;
+  color: #202020; }
+
+.semesters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.date-event-container {
+  padding-top: 17px; }
+
+.date-event {
+  text-align: right;
+  padding-right: 40px; }
+  .date-event h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    color: #59aac0; }
+  .date-event h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    padding-bottom: 23px;
+    color: #202020; }
+  .date-event h3 {
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: -300px; }
+  .date-event #event-word {
+    margin-top: -100px;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px; }
+
+.bottom-border {
+  width: 90%;
+  height: 2px;
+  background-color: #6291a9;
+  margin: 50px; }
+
+.titles {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48a2ba; }
+
+.heading-paragraph {
+  width: 368px; }
+  .heading-paragraph h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #202020;
+    padding-top: 10px;
+    padding-bottom: 8px; }
+  .heading-paragraph p {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #373737; }
+  .heading-paragraph a {
+    color: #33c7ba;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; }
+
+.scroll {
+  width: 70%;
+  height: 195px;
+  overflow: scroll; }
+
+.scroll-2 {
+  height: 150px;
+  width: 70%;
+  overflow: scroll; }
+
 
 .side-navbar {
   width: 220px;
   height: 720px;
   background-color: #1b3c50;
-  float: left; }
+  float: left;
+  margin-right: 27px; }
 
 #profile-picture {
   height: 100px;
@@ -192,6 +278,7 @@ table {
     color: #f7f7f7;
     text-decoration: none; }
 
+
 .semester-and-year {
   display: flex;
   justify-content: space-between;
@@ -228,12 +315,55 @@ table {
 .upcoming-courses {
   height: 21px;
   font-family: Montserrat;
+
+.date-event-container {
+  padding-top: 17px; }
+
+.date-event {
+  text-align: right;
+  padding-right: 40px; }
+  .date-event h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    color: #59aac0; }
+  .date-event h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    padding-right: 40px;
+    padding-bottom: 23px;
+    color: #202020; }
+  .date-event h3 {
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: -300px; }
+  .date-event #event-word {
+    margin-top: -100px;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px; }
+
+.bottom-border {
+  width: 90%;
+  height: 2px;
+  background-color: #6291a9;
+  margin: 50px; }
+
+.titles {
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1.75;
   letter-spacing: 0.2px;
   text-align: left;
   color: #48a2ba; }
+
 
 .completion-percent {
   display: flex;
@@ -322,5 +452,288 @@ table {
   position: absolute;
   top: 80px;
   right: 30px; }
+
+.heading-paragraph {
+  width: 368px; }
+  .heading-paragraph h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #202020;
+    padding-top: 10px;
+    padding-bottom: 8px; }
+  .heading-paragraph p {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #373737; }
+  .heading-paragraph a {
+    color: #33c7ba;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; }
+
+.scroll {
+  width: 70%;
+  height: 195px;
+  overflow: scroll; }
+
+.scroll-2 {
+  height: 150px;
+  width: 70%;
+  overflow: scroll; }
+
+.home-font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #1b3c50;
+  font-weight: bold; }
+
+.header-date {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #1b3c50;
+  padding-bottom: 10px; }
+
+.date-logout-stack {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #52a5af; }
+
+.header-margin {
+  padding: 20px 37px 0px 0px; }
+
+.content-divider {
+  height: 2px;
+  background-color: #6291a9;
+  margin: 12px 37px 20px 27px; }
+
+.enrolled-courses {
+  padding: 17px 0px 0px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start; }
+  .enrolled-courses h3 {
+    padding-bottom: 7px; }
+  .enrolled-courses p:last-child {
+    line-height: 0px; }
+
+.enrolled-currentgrade {
+  display: flex;
+  justify-content: space-between; }
+
+.current-grade {
+  margin: 21px 70px 0px 0px;
+  height: 70px;
+  width: 114px;
+  background-color: white; }
+
+.tenmont {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #4ca2b9;
+  text-align: center;
+  padding-top: 8px; }
+
+.current-percent-font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #33c7ba;
+  padding-top: 7px; }
+
+.percent-class-container {
+  width: 370px;
+  height: 190px;
+  background-color: white;
+  display: flex;
+  padding-bottom: 10px; }
+
+.class-completed-stacked {
+  display: flex;
+  flex-flow: column;
+  margin: 15px 0px 20px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4a4a4a;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  border-color: teal;
+  border-style: solid;
+  border-width: 10px; }
+  .class-completed-stacked p:first-child {
+    padding-top: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #48a2ba; }
+
+.start-end-date p:first-child {
+  text-align: left;
+  padding-top: 25px; }
+.start-end-date p:last-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4a4a4a; }
+
+.start-end-content {
+  padding: 35px 0px 0px 20px; }
+
+.recentgrade-percent-container {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #33c7ba;
+  display: flex;
+  width: 60%; }
+  .recentgrade-percent-container p {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 8px; }
+
+.testing12 {
+  display: flex; }
+
+.percentages {
+  padding: 27px 0px 0px 40px;
+  display: flex;
+  flex-flow: column;
+  width: 45%; }
+
+.recently-graded {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding-left: 30px;
+  width: 45%; }
+  .recently-graded p:first-child {
+    text-align: left; }
+
+.second-section-grades {
+  margin-top: 50px; }
+
+.overflow {
+  overflow: scroll;
+  height: 480px; }
+
+.class-times {
+  padding: 20px; }
+  .class-times h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    color: #2e0a3a; }
+  .class-times h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #202020;
+    padding-bottom: 20px; }
+
+.view-as {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: right;
+  padding-right: 37px;
+  margin-top: -6px;
+  color: #2e0a3a; }
+  .view-as span {
+    color: #2fcfba;
+    padding: 8px; }
+
+.schedule-container {
+  padding-top: 17px; }
+
+.table-container {
+  padding-top: 17px; }
+
+table {
+  margin-top: 37px;
+  border: 1px solid white; }
+
+.table-headers {
+  background-color: rgba(47, 207, 186, 0.15);
+  width: 134px;
+  height: 50px; }
+  .table-headers th {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #2e0a3a;
+    padding-top: 25px;
+    border: 1px solid white; }
+
+.table-classes-2 {
+  width: 134px;
+  height: 170px;
+  background-color: #1b3c50; }
+  .table-classes-2 td {
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    padding-top: 85px;
+    text-align: center;
+    color: #f7f7f7;
+    border: 1px solid white; }
+
+.classes {
+  width: 134px;
+  height: 40px;
+  background-color: #1b3c50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-top: 20px;
+  color: #f7f7f7;
+  border: 1px solid white; }
+
+#empty-class {
+  width: 134px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+.empty-blocks {
+  height: 70px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+.empty-block-2 {
+  height: 20px;
+  background-color: rgba(47, 207, 186, 0.15); }
+
+#wed-class {
+  margin-top: -100px; }
+
 
 /*# sourceMappingURL=styles.css.map */

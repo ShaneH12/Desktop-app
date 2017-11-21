@@ -48,17 +48,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.background-color{
+	background-color: #f7f7f7;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
-
 @import "variables";
 @import "hero";
+@import "homepage-content";
+@import "sidebar";
 
+@import "upcoming-courses-content";
 
 @import "homepage-content";
-@import "hero";
+@import "header";
+@import "grades-content";
+@import "current-schedule-content";
+@import "calender";
 
-@import "variables";
-@import "sidebar";
-@import "upcoming-courses-content";
