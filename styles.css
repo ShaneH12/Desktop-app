@@ -101,9 +101,6 @@ table {
   flex-direction: row;
   justify-content: space-between; }
 
-.date-event-container {
-  text-align: right; }
-
 .date-event h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
@@ -193,9 +190,6 @@ table {
     line-height: 2.82;
     color: #f7f7f7;
     text-decoration: none; }
-
-.date-event-container {
-  text-align: right; }
 
 .date-event h4 {
   font-family: "Montserrat", sans-serif;
