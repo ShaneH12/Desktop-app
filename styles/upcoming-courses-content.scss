@@ -136,3 +136,38 @@
   top: 80px;
   right: 30px;
 }
+
+/*Start of upcoming courses - no classes */
+.no-registered-classes-container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+
+  div {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+.no-registered-courses {
+  font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #48a2ba;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.register-spring-courses {
+  font-size: 15px;
+	font-weight: normal;
+	color: #202020;
+  font-family: Montserrat;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: center;
+  padding-bottom: 20px;
+}
+#no-classes-button {
+  width: 10%;
+}
