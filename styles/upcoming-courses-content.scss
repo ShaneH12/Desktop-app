@@ -5,7 +5,7 @@
     margin-bottom: 20px;
 }
 .semester {
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-size: 10px;
 	font-weight: bold;
 	letter-spacing: 0.2px;
@@ -13,7 +13,7 @@
 	color: #5bd8c8;
 }
 .semester-year {
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-size: 10px;
 	font-weight: bold;
 	letter-spacing: 0.2px;
@@ -33,7 +33,7 @@
 }
 .upcoming-courses {
   height: 21px;
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 1.75;
@@ -46,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   height: 18px;
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.2px;
@@ -56,7 +56,7 @@
   padding-bottom: 20px;
   h2 {
     height: 18px;
-  	font-family: Montserrat;
+  	font-family: $font-mont;
   	font-size: 14px;
   	font-weight: bold;
   	letter-spacing: 0.2px;
@@ -71,7 +71,7 @@
   position: relative;
   h2 {
     height: 18px;
-  	font-family: Montserrat;
+  	font-family: $font-mont;
   	font-size: 14px;
   	letter-spacing: 0.2px;
   	text-align: left;
@@ -85,7 +85,7 @@
     background-color: #ffffff;
     flex-wrap: wrap;
     p {
-      font-family: Montserrat;
+      font-family: $font-mont;
     	font-size: 15px;
     	letter-spacing: 0.2px;
     	text-align: left;
@@ -95,7 +95,7 @@
   }
 }
 .course-code {
-  font-family: Montserrat;
+  font-family: $font-mont;
   letter-spacing: 0.2px;
   font-size: 12px;
   font-weight: bold;
@@ -114,7 +114,7 @@
   align-items: center;
   justify-content:center;
   .button-text {
-    font-family: Montserrat;
+    font-family: $font-mont;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 0.2px;
