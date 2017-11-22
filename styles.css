@@ -183,7 +183,7 @@ table {
 
 .side-navbar {
   width: 220px;
-  height: 720px;
+  height: 691px;
   background-color: #1b3c50;
   float: left;
   margin-right: 27px; }
@@ -604,5 +604,10 @@ table {
 .overflow {
   overflow: scroll;
   height: 480px; }
+
+.border {
+  border: 15px solid;
+  border-image: linear-gradient(to bottom, #2fcfba 0%, #47a1ba 100%);
+  border-image-slice: 1; }
 
 /*# sourceMappingURL=styles.css.map */
