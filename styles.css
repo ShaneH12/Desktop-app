@@ -359,7 +359,8 @@ table {
 .no-registered-classes-container {
   width: 70%;
   margin: 0 auto;
-  background-color: white; }
+  background-color: white;
+  float: left; }
   .no-registered-classes-container div {
     margin: 0 auto;
     width: 90%; }
@@ -386,6 +387,43 @@ table {
 
 #no-classes-button {
   width: 10%; }
+
+.border {
+  height: 690px; }
+
+.general-education {
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #202020; }
+
+.class-name {
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 2.4;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #44ccc0;
+  border-bottom: 1px solid #359ca1;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.white-background-container {
+  background: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  height: 300px; }
+
+.background-color-gen-eds {
+  height: 690px;
+  background-color: #f7f7f7; }
+
+.list-of-classes {
+  background-color: #ffffff; }
 
 .table-container {
   padding-top: 17px; }
