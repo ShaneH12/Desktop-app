@@ -1,0 +1,32 @@
+#box-1 {
+  width: 481px;
+  height: 244px;
+  border: 2px solid black;
+  h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+.div-options {
+  font-family: $font-mont;
+  font-size: 14px;
+  line-height: 1.93;
+  letter-spacing: 0.2px;
+  text-align: left;
+  padding: 10px;
+  padding-left: 40px;
+  color: #202020;
+}
+
+.next-button {
+  width: 114px;
+  height: 42px;
+  font-family: $font-mont;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #3bb9ba;
+}
