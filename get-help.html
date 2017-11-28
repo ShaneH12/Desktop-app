@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <div id="box-1">
-  <h1 class="titles">Course Registration Help</h1>
+  <h1 class="course-reg-title">Course Registration Help</h1>
   <form class="div-options">
   <input type="radio" name="major" value="major-change"> I’d like to change majors.<br>
   <input type="radio" name="why" value="reason"> My major courses are unavailable.<br>
@@ -15,21 +15,34 @@
   <input class="next-button" type="submit" value="NEXT >>">
 </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="box-popup">
+  <h1 class="course-reg-title">Course Registration Help</h1>
+    <p class="nestedps">Error: Other Issue</p>
+    <p class="nestedps">Please briefly describe the issue you are facing:</p>
+      <textarea></textarea>
+      <div class="register-button"
+      id="no-classes-button">
+        <span class="button-text">SUBMIT</span>
+      </div>
+  </div>
+  <div class="box-popup">
+    <h1 class="course-reg-title">Course Registration Help</h1>
+    <section class="classes-padding">
+      <p class="titles">CURRENT PROGRAM:</p>
+      <p class="currenttext">Computer Software Engineering Technology</p>
+      <p class="titles">NEW PROGRAM:</p>
+        <select>
+          <option value="class1">Class 1</option>
+          <option value="class2">Class 2</option>
+          <option value="class3">Class 3</option>
+          <option value="class4">Class 4</option>
+        </select>
+        <div class="register-button"
+        id="no-classes-button">
+          <span class="button-text">SUBMIT</span>
+        </div>
+      </section>
+    </div>
 <script src="scripts.js"></script>
 </body>
 </html>
