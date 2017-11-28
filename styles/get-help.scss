@@ -7,7 +7,6 @@
     padding-top: 20px;
   }
 }
-
 .div-options {
   font-family: $font-mont;
   font-size: 14px;
@@ -18,7 +17,6 @@
   padding-left: 40px;
   color: #202020;
 }
-
 .next-button {
   width: 114px;
   height: 42px;
@@ -29,4 +27,54 @@
   text-align: center;
   color: #ffffff;
   background-color: #3bb9ba;
+}
+.course-reg-title{
+  font-family: $font-mont;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #33c7ba;
+}
+.box-popup{
+    .nestedps{
+      font-family: $font-mont;
+	    font-size: 13px;
+	    line-height: 1.62;
+	    letter-spacing: 0.2px;
+	    text-align: left;
+	    color: #202020;
+      padding-top: 5px;
+    }
+      .register-button{
+        padding: 0px 25px 0px 25px;
+      }
+        .titles{
+          padding: 10px 0px 5px 0px;
+        }
+background-color: #f7f7f7;
+width: 480px;
+padding: 35px;
+border-color: #f7f7f7;
+border: solid 1px #979797;
+}
+textarea{
+  width: 405px;
+  height: 166px;
+  resize: none;
+  margin: 15px 0px 15px 0px;
+}
+select{
+  margin-bottom: 20px;
+}
+.currenttext{
+  font-size: 14px;
+  line-height: 1.93;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #202020;
+  font-family: $font-mont;
+}
+.classes-padding{
+  padding-left: 20px;
 }
