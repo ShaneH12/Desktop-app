@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 37.9px;
 }
 .semester {
   font-family: $font-mont;
@@ -55,6 +56,7 @@
 	color: #33c7ba;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 53px;
   h2 {
     height: 18px;
   	font-family: $font-mont;
@@ -164,7 +166,7 @@
   font-size: 15px;
 	font-weight: normal;
 	color: #202020;
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-weight: bold;
 	letter-spacing: 0.2px;
 	text-align: center;
@@ -179,14 +181,14 @@
 //Upcoming courses schedule gen eds
 .general-education {
   height: 18px;
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 14px;
 	letter-spacing: 0.2px;
 	text-align: left;
 	color: #202020;
 }
 .class-name {
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 15px;
 	line-height: 2.4;
 	letter-spacing: 0.2px;
@@ -269,7 +271,7 @@
 
 
 #percent-box-1{
-  width: 70%;
+  width: 75%;
   height: 5px;
   margin-left: 247px;
   margin-bottom: 17px;
