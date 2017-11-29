@@ -575,6 +575,9 @@ table {
 .schedule-container {
   padding-top: 17px; }
 
+.table {
+  margin-top: -1px; }
+
 .home-font {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
