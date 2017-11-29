@@ -47,7 +47,8 @@ table {
   border-spacing: 0; }
 
 .background-color {
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  height: 690px; }
 
 .hero {
   width: 90%;
@@ -171,6 +172,7 @@ table {
     font-family: "Roboto Slab", serif; }
 
 .scroll {
+  margin-top: -230px;
   width: 70%;
   height: 195px;
   overflow: scroll; }
@@ -355,6 +357,7 @@ table {
 
 /*Start of upcoming courses - no classes */
 .no-registered-classes-container {
+  height: 214px;
   width: 70%;
   margin: 0 auto;
   background-color: white;
@@ -364,7 +367,7 @@ table {
     width: 90%; }
 
 .no-registered-courses {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.2px;
@@ -460,18 +463,23 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 55px; }
+  padding-right: 80px;
+  padding-top: 50px; }
   .help-next p {
     padding: 20px; }
 
 #percent-box-1 {
-  width: 75%;
+  width: 90%;
   height: 5px;
-  margin-left: 247px;
+  margin-left: 20px;
   margin-bottom: 17px;
   background: linear-gradient(to right, #50e3c2 50%, #359ca1 50%); }
+
+.container {
+  height: 331px;
+  margin-left: 240px;
+  margin-right: 50px;
+  background: #ffffff; }
 
 .table-container {
   padding-top: 17px; }
@@ -569,8 +577,15 @@ table {
     color: #2fcfba;
     padding: 8px; }
 
-.schedule-container {
-  padding-top: 17px; }
+.table-container {
+  height: 415px;
+  margin-top: -20px; }
+
+.table-master {
+  height: 415px; }
+
+.table {
+  margin-top: -1px; }
 
 .home-font {
   font-family: "Montserrat", sans-serif;
