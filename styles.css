@@ -252,10 +252,8 @@ table {
   margin: 0 auto; }
 
 .main-content-container {
-  float: left;
-  width: 80%;
-  background-color: #f7f7f7;
-  height: 720px; }
+  margin-left: 220px;
+  background-color: #f7f7f7; }
 
 .upcoming-courses {
   height: 21px;
