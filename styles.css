@@ -51,8 +51,7 @@ table {
 
 .hero {
   width: 90%;
-  margin: 0 auto;
-  border-bottom: 2px solid #6291a9; }
+  margin: 0 auto; }
   .hero .current-program-container {
     display: flex;
     flex-direction: column; }
@@ -555,7 +554,7 @@ table {
 .content-divider {
   height: 2px;
   background-color: #6291a9;
-  margin: 12px 37px 20px 27px; }
+  margin: 12px 37px 20px 247px; }
 
 .enrolled-courses {
   padding: 17px 0px 0px 0px;
@@ -676,7 +675,7 @@ table {
 
 .overflow {
   overflow: scroll;
-  height: 480px; }
+  height: 450px; }
 
 .border {
   border: 15px solid;
