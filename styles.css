@@ -572,8 +572,12 @@ table {
     color: #2fcfba;
     padding: 8px; }
 
-.schedule-container {
-  padding-top: 17px; }
+.table-container {
+  height: 415px;
+  margin-top: -20px; }
+
+.table-master {
+  height: 415px; }
 
 .table {
   margin-top: -1px; }
@@ -730,7 +734,7 @@ table {
 
 .overflow {
   overflow: scroll;
-  height: 450px; }
+  height: 418.5px; }
 
 .border {
   border: 15px solid;
