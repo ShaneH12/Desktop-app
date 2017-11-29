@@ -51,8 +51,7 @@ table {
 
 .hero {
   width: 90%;
-  margin: 0 auto;
-  border-bottom: 2px solid #6291a9; }
+  margin: 0 auto; }
   .hero .current-program-container {
     display: flex;
     flex-direction: column; }
@@ -478,6 +477,9 @@ table {
 .table-container {
   padding-top: 17px; }
 
+.table-master {
+  display: none; }
+
 table {
   margin-top: 37px;
   border: 1px solid white; }
@@ -602,7 +604,7 @@ table {
 .content-divider {
   height: 2px;
   background-color: #6291a9;
-  margin: 12px 37px 20px 27px; }
+  margin: 12px 37px 20px 247px; }
 
 .enrolled-courses {
   padding: 17px 0px 0px 0px;
@@ -723,7 +725,7 @@ table {
 
 .overflow {
   overflow: scroll;
-  height: 480px; }
+  height: 450px; }
 
 .border {
   border: 15px solid;
@@ -758,5 +760,52 @@ table {
   text-align: center;
   color: #ffffff;
   background-color: #3bb9ba; }
+
+.course-reg-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #33c7ba; }
+
+.box-popup {
+  background-color: #f7f7f7;
+  width: 480px;
+  padding: 35px;
+  border-color: #f7f7f7;
+  border: solid 1px #979797; }
+  .box-popup .nestedps {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    padding-top: 5px; }
+  .box-popup .register-button {
+    padding: 0px 25px 0px 25px; }
+  .box-popup .titles {
+    padding: 10px 0px 5px 0px; }
+
+textarea {
+  width: 405px;
+  height: 166px;
+  resize: none;
+  margin: 15px 0px 15px 0px; }
+
+select {
+  margin-bottom: 20px; }
+
+.currenttext {
+  font-size: 14px;
+  line-height: 1.93;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #202020;
+  font-family: "Montserrat", sans-serif; }
+
+.classes-padding {
+  padding-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
