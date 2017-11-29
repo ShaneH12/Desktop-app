@@ -76,7 +76,7 @@ table {
 .hero-heading {
   width: 241px;
   height: 37.9px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.2px;
@@ -86,7 +86,7 @@ table {
 .hero-words {
   width: 241px;
   height: 37.9px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.2px;
@@ -424,6 +424,56 @@ table {
 
 .list-of-classes {
   background-color: #ffffff; }
+
+.check-form {
+  padding-top: 20px; }
+  .check-form p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #202020; }
+  .check-form span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #48a2ba; }
+
+#check-boxes-right {
+  margin-left: 60%;
+  margin-top: -100px; }
+
+.course-class-check {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #202020; }
+
+.get-help-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #50e3c2; }
+
+.help-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 55px; }
+  .help-next p {
+    padding: 20px; }
+
+#percent-box-1 {
+  width: 70%;
+  height: 5px;
+  margin-left: 247px;
+  margin-bottom: 17px;
+  background: linear-gradient(to right, #50e3c2 50%, #359ca1 50%); }
 
 .table-container {
   padding-top: 17px; }
