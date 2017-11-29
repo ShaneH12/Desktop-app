@@ -143,6 +143,7 @@
 
 /*Start of upcoming courses - no classes */
 .no-registered-classes-container {
+  height: 214px;
   width: 70%;
   margin: 0 auto;
   background-color: white;
@@ -153,7 +154,7 @@
   }
 }
 .no-registered-courses {
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 0.2px;
@@ -260,9 +261,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 200px;
+  padding-right: 80px;
   padding-top: 50px;
-  padding-bottom: 55px;
 
   p {
     padding: 20px;
@@ -271,9 +271,16 @@
 
 
 #percent-box-1{
-  width: 75%;
+  width: 90%;
   height: 5px;
-  margin-left: 247px;
+  margin-left: 20px;
   margin-bottom: 17px;
   background: linear-gradient(to right, #50e3c2 50% , #359ca1 50%);
+}
+
+.container {
+  height: 331px;
+  margin-left: 240px;
+  margin-right: 50px;
+  background: #ffffff;
 }
