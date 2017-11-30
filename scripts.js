@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //When you click register on the CIS courses page, it switches it to ENG classes.
-  $(".button-text").click(function(){
+  $(".register-button").click(function(){
     $(".form-title").html("English");
     $(".CIS-105").html("ENG 106");
     $(".CIS-111").html("ENG 116");
@@ -29,7 +29,7 @@ $(document).ready(function(){
       $("#box-1").show();
     });
     //Responds to your choice on the problem selection screen of the first pop up
-    $(".next-button").click(function() {
+    $("#next-help-button").click(function() {
       //If you click classes not availble then it will move to the next help screen
       if ($('input[name=help-options]:checked').val() === "reason") {
         $("#box-1").hide();
@@ -66,3 +66,57 @@ $(document).ready(function(){
       $("#course-register-help").hide();
     });
 });
+
+//Get current date and add it to top of pages
+function numberToDay(numberDay) {
+  if (numberDay === 0) {
+    return "Sunday";
+  } else if (numberDay === 1) {
+    return "Monday";
+  } else if (numberDay === 2) {
+    return "Tuesday";
+  } else if (numberDay === 3) {
+    return "Wednesday";
+  } else if (numberDay === 4) {
+    return "Thursday";
+  } else if (numberDay === 5) {
+    return "Friday";
+  } else  {
+    return "Saturday";
+  }
+}
+function getMonthName(monthNumber) {
+  if (monthNumber === 0) {
+    return "January";
+  } else if (monthNumber === 1) {
+    return "February";
+  } else if (monthNumber === 2) {
+    return "March";
+  } else if (monthNumber === 3) {
+    return "April";
+  } else if (monthNumber === 4) {
+    return "May";
+  } else if (monthNumber === 5) {
+    return "June";
+  } else if (monthNumber === 6) {
+    return "July";
+  } else if (monthNumber === 7) {
+    return "August";
+  } else if (monthNumber === 8) {
+    return "September";
+  } else if (monthNumber === 9) {
+    return "October";
+  } else if (monthNumber === 10) {
+    return "November";
+  } else {
+    return "December";
+  }
+}
+var d = new Date();
+var numberOfDay = d.getDate();
+var day = numberToDay(d.getDay());
+var month = getMonthName(d.getMonth());
+var year = d.getFullYear();
+
+
+document.getElementsByClassName("header-date")[0].innerHTML = (day + ", " + month + " " + numberOfDay + ", " + year).toUpperCase();

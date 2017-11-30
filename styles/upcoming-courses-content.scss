@@ -83,7 +83,7 @@
   form {
     width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     line-height: 30px;
     background-color: #ffffff;
     flex-wrap: wrap;
@@ -177,6 +177,9 @@
 }
 #no-classes-button {
   width: 10%;
+  a {
+    text-decoration: none;
+  }
 }
 .border {
   height: 690px;
@@ -207,7 +210,7 @@
   background: #ffffff;
   width: 75%;
   margin: 0 auto;
-  height: 360px;
+  height: 370px;
   margin-left: 243px;
 
 }
@@ -218,6 +221,7 @@
 
 .list-of-classes {
   background-color: #ffffff;
+
   a {
     text-decoration: none;
   }

@@ -27,7 +27,7 @@
 }
 
 .sidebar-container-content {
-  padding-left: 21.5px;
+  // padding-left: 21.5px;
 
   .profile-header {
     font-family: $font-mont;
@@ -36,9 +36,10 @@
     letter-spacing: 0.2px;
     text-align: left;
     color: #f7f7f7;
+    padding-left: 20px; //added padding-left
   }
   .profile-links a {
-    padding-left: 30px;
+    padding-left: 50px; //orginal 30px
     font-family: $font-mont;
     font-size: 11px;
     font-weight: bold;
@@ -46,4 +47,7 @@
     color: #f7f7f7;
     text-decoration: none;
   }
+}
+.highlighted-sidebar {
+  background-color: #0b2535;
 }

@@ -182,6 +182,14 @@ table {
   width: 70%;
   overflow: scroll; }
 
+#home-link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #1b3c50;
+  font-weight: bold; }
+
 .side-navbar {
   width: 220px;
   height: 691px;
@@ -207,23 +215,25 @@ table {
   text-align: center;
   color: #f7f7f7; }
 
-.sidebar-container-content {
-  padding-left: 21.5px; }
-  .sidebar-container-content .profile-header {
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    line-height: 2.38;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #f7f7f7; }
-  .sidebar-container-content .profile-links a {
-    padding-left: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 2.82;
-    color: #f7f7f7;
-    text-decoration: none; }
+.sidebar-container-content .profile-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 2.38;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #f7f7f7;
+  padding-left: 20px; }
+.sidebar-container-content .profile-links a {
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 2.82;
+  color: #f7f7f7;
+  text-decoration: none; }
+
+.highlighted-sidebar {
+  background-color: #0b2535; }
 
 .semester-and-year {
   display: flex;
@@ -303,7 +313,7 @@ table {
   .classes-form-container form {
     width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     line-height: 30px;
     background-color: #ffffff;
     flex-wrap: wrap; }
@@ -389,6 +399,8 @@ table {
 
 #no-classes-button {
   width: 10%; }
+  #no-classes-button a {
+    text-decoration: none; }
 
 .border {
   height: 690px; }
@@ -418,7 +430,7 @@ table {
   background: #ffffff;
   width: 75%;
   margin: 0 auto;
-  height: 360px;
+  height: 370px;
   margin-left: 243px; }
 
 .background-color-gen-eds {
@@ -580,6 +592,8 @@ table {
   .view-as span {
     color: #2fcfba;
     padding: 8px; }
+  .view-as .calendar {
+    color: black; }
 
 .table-container {
   height: 415px;
@@ -623,6 +637,9 @@ table {
   height: 2px;
   background-color: #6291a9;
   margin: 12px 37px 20px 247px; }
+
+.schedule-courses-header {
+  color: #52a5af; }
 
 .enrolled-courses {
   padding: 17px 0px 0px 0px;
