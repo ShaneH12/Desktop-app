@@ -427,6 +427,8 @@ table {
 
 .list-of-classes {
   background-color: #ffffff; }
+  .list-of-classes a {
+    text-decoration: none; }
 
 .check-form {
   padding-top: 20px; }
