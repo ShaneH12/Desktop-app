@@ -808,4 +808,117 @@ select {
 .classes-padding {
   padding-left: 20px; }
 
+/* The Modal (background) */
+/* Modal Content */
+#box-1 {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 481px;
+  height: 223px;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+#course-register-help {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 481px;
+  height: 223px;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+#third-popup {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+#courses-unavailable {
+  width: 481px;
+  height: 244px;
+  border: 2px solid black;
+  display: none;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  #courses-unavailable h1 {
+    padding-left: 20px;
+    padding-top: 20px; }
+  #courses-unavailable p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    padding: 20px;
+    padding-bottom: 10px; }
+
+#other-error {
+  display: none;
+  width: 481px;
+  height: 244px;
+  border: 2px solid black;
+  display: none;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  #other-error h1 {
+    padding-left: 20px;
+    padding-top: 20px; }
+  #other-error p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    padding: 20px;
+    padding-bottom: 10px; }
+
+#thanks-button, #okay-button {
+  margin-left: 15px;
+  margin-top: 10px; }
+
 /*# sourceMappingURL=styles.css.map */

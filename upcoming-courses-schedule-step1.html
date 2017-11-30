@@ -5,6 +5,7 @@
   <title></title>
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body class="border">
   <aside class="side-navbar">
@@ -58,6 +59,83 @@
     </div>
   </section>
   <section>
+    <!-- First popup box in the get help section -->
+    <div id="box-1">
+      <h1 class="course-reg-title">Course Registration Help</h1>
+      <form class="div-options">
+      <input type="radio" name="help-options" value="major-change"> I’d like to change majors.<br>
+      <input type="radio" name="help-options" value="reason"> My major courses are unavailable.<br>
+      <input type="radio" name="help-options" value="other"> Other Issue.<br><br>
+      <input class="next-button" type="submit" value="NEXT >>">
+    </form>
+    </div>
+    <!-- Courses unavailable popup box -->
+    <div id="courses-unavailable">
+      <h1 class="course-reg-title">Course Registration Help</h1>
+      <p>Error: Major Courses are unavailable.</p>
+      <p>Your response has been recorded. Support will be in touch via email.</p>
+      <div class="register-button" id="okay-button">
+        <span class="button-text">OKAY.</span>
+      </div>
+    </div>
+    <!-- "Other" error box -->
+    <div id="other-error">
+      <h1 class="course-reg-title">Course Registration Help</h1>
+      <p>Error: Other Issue</p>
+      <p>Thank you! Your message has been submitted & we will be in touch shortly. </p>
+      <div class="register-button" id="thanks-button">
+        <span class="button-text">THANKS!</span>
+      </div>
+    </div>
+    <!-- Second popup box in the get help section -->
+    <div class="box-popup" id="course-register-help">
+      <h1 class="course-reg-title">Course Registration Help</h1>
+      <section class="classes-padding">
+        <p class="titles">CURRENT PROGRAM:</p>
+        <p class="currenttext">Computer Software Engineering Technology</p>
+        <p class="titles">NEW PROGRAM:</p>
+          <select>
+            <option value="class1">Architectural Technology</option>
+            <option value="class2">Automotive Technology</option>
+            <option value="class3">Business Administration</option>
+            <option value="class4">Cabinet &amp; Wood Technology</option>
+            <option value="class5">Carpentry Technology</option>
+            <option value="class6">Collision Repair</option>
+            <option value="class7">Computer &amp; Network Systems Technology</option>
+            <option value="class8">Computer Software Engineering Technology</option>
+            <option value="class9">Electrical Technology</option>
+            <option value="class10">Electro-Mechanical Technology</option>
+            <option value="class11">Electronic Engineering Technology</option>
+            <option value="class12">Engineering CAD Technology</option>
+            <option value="class13">Graphic Communications and Printing Technology</option>
+            <option value="class14">Heating, Ventilation & Air Conditioning - Refrigeration</option>
+            <option value="class15">Machine Tool &amp; Computer Aided Manufacturing</option>
+            <option value="class16">Masonry Construction Technology</option>
+            <option value="class17">Mechanical Engineering Technology</option>
+            <option value="class18">Metals Fabrication &amp; Welding Technology</option>
+            <option value="class19">Plumbing Technology</option>
+            <option value="class20">Residential Remodeling Technology</option>
+            <option value="class21">Water &amp; Environmental Technology</option>
+            <option value="class22">Welding Technology</option>
+          </select>
+          <div class="register-button" id="no-classes-button">
+            <span class="button-text">SUBMIT</span>
+          </div>
+        </section>
+      </div>
+    <!-- Third popup box in the get help section -->
+      <div class="box-popup" id="third-popup">
+        <h1 class="course-reg-title">Course Registration Help</h1>
+          <p class="nestedps">Error: Other Issue</p>
+          <p class="nestedps">Please briefly describe the issue you are facing:</p>
+            <textarea></textarea>
+            <div class="register-button" id="submit-error-button">
+              <span class="button-text">SUBMIT</span>
+            </div>
+        </div>
+
+    <!-- End of popup boxes section -->
+
     <div class="semester-and-year">
       <h1 class="upcoming-courses">Upcoming Courses:</h1>
       <h2 class="semester-year"><span class="semester">Semester:</span> Spring 2018</h2>
@@ -83,13 +161,14 @@
             <input type="checkbox"><span>CSET 180</span></input>
               <p class="course-class-check">Software Project II</p>
             </div>
-            </form>
+        </form>
           <div class="help-next">
             <p class="get-help-button">Get Help>></p>
 <input class="next-button" type="submit" value="NEXT >>">
             </div>
           </article>
         </section>
+
 
 
 
