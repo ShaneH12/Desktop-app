@@ -1,8 +1,10 @@
+//sample page content
 .semester-and-year {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-right: 37.9px;
 }
 .semester {
   font-family: $font-mont;
@@ -23,14 +25,13 @@
 
 .form-and-content-container {
   width: 80%;
-  height: 400px;
   margin: 0 auto;
 }
 .main-content-container {
-  float: left;
-  width: 80%;
+
+  margin-left: 220px;
   background-color: #f7f7f7;
-  height: 720px;
+
 }
 .upcoming-courses {
   height: 21px;
@@ -55,6 +56,7 @@
 	color: #33c7ba;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 53px;
   h2 {
     height: 18px;
   	font-family: $font-mont;
@@ -111,6 +113,7 @@
   height: 45px;
   background-color: #3bb9ba;
   margin-right: 40px;
+  margin-bottom: 5px;
   display:flex;
   align-items: center;
   justify-content:center;
@@ -131,16 +134,18 @@
   margin: 0 auto;
   width: 90%;
 
+
 }
 .english-classes-container {
   display: none;
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 30px;
 }
 
 /*Start of upcoming courses - no classes */
 .no-registered-classes-container {
+  height: 214px;
   width: 70%;
   margin: 0 auto;
   background-color: white;
@@ -151,7 +156,7 @@
   }
 }
 .no-registered-courses {
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 0.2px;
@@ -164,7 +169,7 @@
   font-size: 15px;
 	font-weight: normal;
 	color: #202020;
-  font-family: Montserrat;
+  font-family: $font-mont;
 	font-weight: bold;
 	letter-spacing: 0.2px;
 	text-align: center;
@@ -179,14 +184,14 @@
 //Upcoming courses schedule gen eds
 .general-education {
   height: 18px;
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 14px;
 	letter-spacing: 0.2px;
 	text-align: left;
 	color: #202020;
 }
 .class-name {
-	font-family: Montserrat;
+	font-family: $font-mont;
 	font-size: 15px;
 	line-height: 2.4;
 	letter-spacing: 0.2px;
@@ -200,9 +205,10 @@
 }
 .white-background-container {
   background: #ffffff;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
-  height: 300px;
+  height: 360px;
+  margin-left: 243px;
 
 }
 .background-color-gen-eds {
@@ -212,6 +218,9 @@
 
 .list-of-classes {
   background-color: #ffffff;
+  a {
+    text-decoration: none;
+  }
 }
 
 //upcoming courses step 1
@@ -258,9 +267,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 200px;
+  padding-right: 80px;
   padding-top: 50px;
-  padding-bottom: 55px;
 
   p {
     padding: 20px;
@@ -269,9 +277,16 @@
 
 
 #percent-box-1{
-  width: 70%;
+  width: 90%;
   height: 5px;
-  margin-left: 247px;
+  margin-left: 20px;
   margin-bottom: 17px;
   background: linear-gradient(to right, #50e3c2 50% , #359ca1 50%);
+}
+
+.container {
+  height: 331px;
+  margin-left: 240px;
+  margin-right: 50px;
+  background: #ffffff;
 }

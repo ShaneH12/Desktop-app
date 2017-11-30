@@ -47,7 +47,8 @@ table {
   border-spacing: 0; }
 
 .background-color {
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  height: 690px; }
 
 .hero {
   width: 90%;
@@ -171,6 +172,7 @@ table {
     font-family: "Roboto Slab", serif; }
 
 .scroll {
+  margin-top: -230px;
   width: 70%;
   height: 195px;
   overflow: scroll; }
@@ -227,7 +229,8 @@ table {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 10px;
+  padding-right: 37.9px; }
 
 .semester {
   font-family: "Montserrat", sans-serif;
@@ -247,14 +250,11 @@ table {
 
 .form-and-content-container {
   width: 80%;
-  height: 400px;
   margin: 0 auto; }
 
 .main-content-container {
-  float: left;
-  width: 80%;
-  background-color: #f7f7f7;
-  height: 720px; }
+  margin-left: 220px;
+  background-color: #f7f7f7; }
 
 .upcoming-courses {
   height: 21px;
@@ -277,7 +277,8 @@ table {
   text-align: right;
   color: #33c7ba;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-right: 53px; }
   .completion-percent h2 {
     height: 18px;
     font-family: "Montserrat", sans-serif;
@@ -329,6 +330,7 @@ table {
   height: 45px;
   background-color: #3bb9ba;
   margin-right: 40px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -351,11 +353,12 @@ table {
 .english-classes-container {
   display: none;
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 30px; }
 
 /*Start of upcoming courses - no classes */
 .no-registered-classes-container {
+  height: 214px;
   width: 70%;
   margin: 0 auto;
   background-color: white;
@@ -365,7 +368,7 @@ table {
     width: 90%; }
 
 .no-registered-courses {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.2px;
@@ -378,7 +381,7 @@ table {
   font-size: 15px;
   font-weight: normal;
   color: #202020;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.2px;
   text-align: center;
@@ -392,14 +395,14 @@ table {
 
 .general-education {
   height: 18px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   letter-spacing: 0.2px;
   text-align: left;
   color: #202020; }
 
 .class-name {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 2.4;
   letter-spacing: 0.2px;
@@ -413,9 +416,10 @@ table {
 
 .white-background-container {
   background: #ffffff;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
-  height: 300px; }
+  height: 360px;
+  margin-left: 243px; }
 
 .background-color-gen-eds {
   height: 690px;
@@ -423,6 +427,8 @@ table {
 
 .list-of-classes {
   background-color: #ffffff; }
+  .list-of-classes a {
+    text-decoration: none; }
 
 .check-form {
   padding-top: 20px; }
@@ -461,18 +467,23 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 55px; }
+  padding-right: 80px;
+  padding-top: 50px; }
   .help-next p {
     padding: 20px; }
 
 #percent-box-1 {
-  width: 70%;
+  width: 90%;
   height: 5px;
-  margin-left: 247px;
+  margin-left: 20px;
   margin-bottom: 17px;
   background: linear-gradient(to right, #50e3c2 50%, #359ca1 50%); }
+
+.container {
+  height: 331px;
+  margin-left: 240px;
+  margin-right: 50px;
+  background: #ffffff; }
 
 .table-container {
   padding-top: 17px; }
@@ -570,8 +581,15 @@ table {
     color: #2fcfba;
     padding: 8px; }
 
-.schedule-container {
-  padding-top: 17px; }
+.table-container {
+  height: 415px;
+  margin-top: -20px; }
+
+.table-master {
+  height: 415px; }
+
+.table {
+  margin-top: -1px; }
 
 .home-font {
   font-family: "Montserrat", sans-serif;
@@ -725,7 +743,7 @@ table {
 
 .overflow {
   overflow: scroll;
-  height: 450px; }
+  height: 418.5px; }
 
 .border {
   border: 15px solid;
