@@ -397,10 +397,8 @@ table {
   text-align: center;
   padding-bottom: 20px; }
 
-#no-classes-button {
-  width: 10%; }
-  #no-classes-button a {
-    text-decoration: none; }
+#no-classes-button a {
+  text-decoration: none; }
 
 .border {
   height: 690px; }
@@ -961,6 +959,61 @@ select {
   margin-left: 15px;
   margin-top: 10px; }
 
+
+.reset-password {
+  width: 490px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border: solid 1px #979797; }
+  .reset-password h3 {
+    padding-top: 44px;
+    padding-bottom: 14px; }
+  .reset-password p {
+    width: 425px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #202020; }
+  .reset-password input {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 48px; }
+
+.password-success {
+  width: 490px;
+  height: 265px;
+  background-color: #f7f7f7;
+  border: solid 1px #979797; }
+  .password-success h3 {
+    padding-top: 44px;
+    padding-bottom: 14px; }
+  .password-success p {
+    width: 425px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #202020; }
+
+#resend-email {
+  width: 114px;
+  height: 18px;
+  margin-left: 136px;
+  margin-top: -30px; }
+  #resend-email a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #3bb9ba;
+    text-decoration: none; }
+
 .content-divider-index {
   height: 2px;
   background-color: #6291a9;
@@ -1040,5 +1093,6 @@ select {
   text-align: center;
   color: #3bb9ba;
   padding: 25px 0px 0px 10px; }
+
 
 /*# sourceMappingURL=styles.css.map */

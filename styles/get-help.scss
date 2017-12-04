@@ -215,3 +215,68 @@ select{
   margin-left: 15px;
   margin-top: 10px;
 }
+
+//updated 2nd part of Project
+.reset-password {
+  width: 490px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border: solid 1px #979797;
+  h3 {
+    padding-top: 44px;
+    padding-bottom: 14px;
+  }
+  p {
+    width: 425px;
+    font-family: $font-mont;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #202020;
+  }
+  input {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 48px;
+  }
+}
+
+.password-success {
+  width: 490px;
+  height: 265px;
+  background-color: #f7f7f7;
+  border: solid 1px #979797;
+  h3 {
+    padding-top: 44px;
+    padding-bottom: 14px;
+  }
+  p {
+    width: 425px;
+    font-family: $font-mont;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #202020;
+  }
+
+}
+
+#resend-email {
+  width: 114px;
+  height: 18px;
+  margin-left: 136px;
+  margin-top: -30px;
+  a {
+  font-family: $font-mont;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #3bb9ba;
+  text-decoration: none;
+}
+    }
