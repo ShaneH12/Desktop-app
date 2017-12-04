@@ -497,6 +497,11 @@ table {
   margin-right: 50px;
   background: #ffffff; }
 
+.no-selection-error-message {
+  color: red;
+  font-weight: bold;
+  display: none; }
+
 .table-container {
   padding-top: 17px; }
 
