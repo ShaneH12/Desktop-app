@@ -41,10 +41,13 @@ $(document).ready(function(){
         $("#course-register-help").show();
         return false;
       //If you click "other error" it will move to the next help screen
-      } else {
+    } else if ($('input[name=help-options]:checked').val() === "other") {
         $("#box-1").hide();
         $("#third-popup").show();
         return false;
+    } else {
+      $(".no-selection-error-message").show();
+      return false;
     }
     });
     //When you click the "submit" button after describing your error
