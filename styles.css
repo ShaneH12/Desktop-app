@@ -954,6 +954,7 @@ select {
   margin-left: 15px;
   margin-top: 10px; }
 
+
 .reset-password {
   width: 490px;
   height: 350px;
@@ -1007,5 +1008,86 @@ select {
     text-align: center;
     color: #3bb9ba;
     text-decoration: none; }
+
+.content-divider-index {
+  height: 2px;
+  background-color: #6291a9;
+  margin: 12px 37px 20px 37px; }
+
+.login-container {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 168px 210px 400px; }
+
+.login-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #202020; }
+
+.login-wrapper {
+  margin: 70px 20px 20px 20px;
+  display: flex;
+  flex-direction: column; }
+
+.student-portal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #3bb9ba;
+  margin: 20px 0px 40px 0px; }
+
+.email-address-box {
+  width: 350px;
+  height: 48px;
+  background-color: #f7f7f7;
+  border: solid 1px #3bb9ba;
+  margin-bottom: 10px;
+  text-align: center; }
+  .email-address-box p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #3bb9ba;
+    padding-top: 15px; }
+
+.div-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; }
+
+.submit-button {
+  width: 150px;
+  height: 48px;
+  background-color: #3bb9ba;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #f7f7f7;
+  margin: 10px 10px 0px 130px; }
+  .submit-button p {
+    padding-top: 15px; }
+
+.submit-password-container {
+  display: flex;
+  flex-flow: row; }
+
+.forgot-password-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #3bb9ba;
+  padding: 25px 0px 0px 10px; }
+
 
 /*# sourceMappingURL=styles.css.map */
