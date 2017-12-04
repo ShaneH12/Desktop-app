@@ -998,6 +998,8 @@ select {
     text-align: left;
     padding-bottom: 20px;
     color: #202020; }
+  .password-success a {
+    text-decoration: none; }
 
 #resend-email {
   width: 114px;
