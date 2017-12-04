@@ -1,0 +1,72 @@
+.current-grade-container{
+  width: 215px;
+	height: 275px;
+	background-color: #ffffff;
+  display: inline-block;
+
+}
+.currentgrade-schedule-container{
+  display: flex;
+}
+.semester-schedule{
+  display: block;
+  width: 30%;
+  background-color: red;
+  float: left;
+}
+.current-grades{
+  display: inline-block;
+  width: 60%;
+}
+.major-text{
+  font-family: $font-mont;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #202020;
+  width: 90%;
+  padding-left: 8px;
+}
+.class-text{
+  font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	color: #2e0a3a;
+  text-align: center;
+}
+.gradient-circle{
+  border-radius: 50%;
+  border-color: teal;
+  border-style: solid;
+  border-width: 10px;
+  padding: 25px 0px 25px 0px;
+}
+.currentgrade-content{
+  font-family: $font-mont;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #4a4a4a;
+
+}
+.gradepercentage{
+  font-family: $font-mont;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+	text-align: center;
+	color: #48a2ba;
+  padding-top: 15px;
+}
+.currentgrade-div-content{
+  padding: 18px 0px 18px 0px;
+}
+.currentgrade-allcontent{
+  margin: 0px 30px 0px 30px;
+}
+.each-div{
+float: left;
+margin: 15px 15px 15px 0px;
+}
