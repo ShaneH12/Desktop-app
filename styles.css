@@ -1107,7 +1107,6 @@ select {
 .semester-schedule {
   display: block;
   width: 30%;
-  background-color: red;
   float: left; }
 
 .current-grades {
@@ -1164,5 +1163,16 @@ select {
 .each-div {
   float: left;
   margin: 15px 15px 15px 0px; }
+
+.sem-schedule {
+  padding-top: 10px; }
+
+.viewcalender {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: right;
+  color: #2e0a3a; }
 
 /*# sourceMappingURL=styles.css.map */
