@@ -87,7 +87,7 @@ $(document).ready(function(){
       }
 
 });
-//Forgot password popup boxes
+//Forgot password popup boxess
   var favoriteColor = "red";
   var emailSuffix = "stevenscollege.edu";
   function checkCollegeEmail(email) {
