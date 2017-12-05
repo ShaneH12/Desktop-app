@@ -3,7 +3,6 @@
 	height: 275px;
 	background-color: #ffffff;
   display: inline-block;
-
 }
 .currentgrade-schedule-container{
   display: flex;
@@ -11,11 +10,12 @@
 .semester-schedule{
   display: block;
   width: 30%;
-  float: left;
 }
 .current-grades{
-  display: inline-block;
-  width: 60%;
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  height: 500px;
 }
 .major-text{
   font-family: $font-mont;
@@ -48,7 +48,6 @@
 	letter-spacing: 0.2px;
 	text-align: center;
 	color: #4a4a4a;
-
 }
 .gradepercentage{
   font-family: $font-mont;
@@ -66,8 +65,9 @@
   margin: 0px 30px 0px 30px;
 }
 .each-div{
-float: left;
-margin: 15px 15px 15px 0px;
+display: flex;
+margin: 20px 0px 0px 0px;
+width: 47%;
 }
 .sem-schedule{
   padding-top: 10px;
@@ -79,7 +79,26 @@ margin: 15px 15px 15px 0px;
 	letter-spacing: 0.3px;
 	text-align: right;
 	color: #2e0a3a;
+  margin: 10px 50px 0px 0px;
 }
 .upcoming-due{
-  
+  padding-top: 30px;
+}
+.date-blue-text{
+  font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	color: #59aac0;
+}
+.upcomingdue-padding{
+  padding-top: 15px;
+}
+.nameofclass{
+  font-family: $font-mont;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #2e0a3a;
 }
