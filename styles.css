@@ -1095,6 +1095,31 @@ select {
   color: #3bb9ba;
   padding: 25px 0px 0px 10px; }
 
+.error {
+  display: none;
+  color: red;
+  font-weight: bold; }
+
+.reset-password {
+  display: none;
+  border: 2px solid black;
+  display: none;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+#not-stevens-email {
+  display: none;
+  color: red;
+  position: absolute;
+  bottom: 100;
+  right: 50; }
 
 .current-grade-container {
   width: 215px;
@@ -1199,33 +1224,6 @@ select {
   letter-spacing: 0.2px;
   text-align: left;
   color: #2e0a3a; }
-=======
-
-.error {
-  display: none;
-  color: red;
-  font-weight: bold; }
-
-.reset-password {
-  display: none;
-  border: 2px solid black;
-  display: none;
-  background-color: #fefefe;
-  border: 1px solid #888;
-  display: none;
-  position: absolute;
-  top: 200px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto; }
-
-#not-stevens-email {
-  display: none;
-  color: red;
-  position: absolute;
-  bottom: 100;
-  right: 50; }
 
 .account-settings-name P {
   font-family: "Montserrat", sans-serif;
@@ -1272,7 +1270,5 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-
-
 
 /*# sourceMappingURL=styles.css.map */
