@@ -1,0 +1,56 @@
+.account-settings-name {
+  P {
+    font-family: $font-mont;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+  }
+  h4 {
+    font-family: $font-mont;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    font-weight: bold;
+    color: #48a2ba;
+    padding-bottom: 5px;
+  }
+}
+
+.account-settings-container {
+  padding-top: 18px;
+  margin-right: 43px;
+  h5 {
+    font-family: $font-mont;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.75;
+    color: #2e0a3a;
+  }
+  p {
+    font-family: $font-mont;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+  }
+}
+
+.account-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.account-info {
+  width: 310px;
+  height: 66.9px;
+  padding-bottom: 53px;
+  h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}

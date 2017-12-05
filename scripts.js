@@ -68,6 +68,69 @@ $(document).ready(function(){
     $("#no-classes-button").click(function() {
       $("#course-register-help").hide();
     });
+    //Login page
+    var username = "dhernandez@stevenscollege.edu";
+    var password = "password";
+
+    function isValidEmailAddress(emailAddress) {
+      var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+      return pattern.test(emailAddress);
+}
+    $("#get-user-info").click(function() {
+      var userNameInput = $("#username-input").val();
+      var passwordInput = $("#password-input").val();
+      if (isValidEmailAddress(userNameInput) === true && userNameInput === username && passwordInput === "password") {
+        window.location = "homepage.html";
+      } else {
+        $("#user-input-container").effect( "shake" );
+        $("#wrong-username-password").show();
+      }
+
+});
+//Forgot password popup boxes
+  var favoriteColor = "red";
+  var emailSuffix = "stevenscollege.edu";
+  function checkCollegeEmail(email) {
+    var emailSplit = email.split("@")[1];
+    if (emailSplit === emailSuffix) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+    $(".forgot-password-text").click(function() {
+      $("#forgot-password-box").show();
+    });
+    $("#submit-email").click(function() {
+      var emailInput = $("#user-email").val();
+      if (checkCollegeEmail(emailInput)) {
+        $("#street-grew-up-on").show();
+        $("#forgot-password-box").hide();
+      } else {
+        $("#user-email").css("border", "2px solid red");
+        $("#not-stevens-email").show();
+      }
+    });
+
+    $("#submit-street").click(function() {
+      if ($("#street-input").val() === "Orange Street") {
+        $("#favorite-color-box").show();
+        $("#street-grew-up-on").hide();
+      } else {
+        $("#street-input").css("border", "2px solid red");
+      }
+    });
+    $("#submit-color").click(function() {
+      if ($("#user-favorite-color").val().toLowerCase() === "red") {
+        $(".password-success").show();
+        $("#favorite-color-box").hide();
+      } else {
+        $("#user-favorite-color").css("border", "2px solid red");
+      }
+    });
+    $("#okay-reset").click(function() {
+      $(".password-success").hide();
+    });
 });
 
 //Get current date and add it to top of pages
