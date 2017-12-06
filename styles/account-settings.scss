@@ -54,3 +54,15 @@
   }
 
 }
+.emails-no-match {
+  position: absolute;
+  left: 280px;
+  bottom: 20px;
+  display: none;
+  p {
+  font-family: $font-mont;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	color: #d0021b;
+}
+}

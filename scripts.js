@@ -131,7 +131,31 @@ $(document).ready(function(){
     $("#okay-reset").click(function() {
       $(".password-success").hide();
     });
+    $("#logout-button").click(function() {
+      $("#logout-box").show();
+    });
+
+    //Change Email Section
+    $("#edit-email").click(function() {
+      $("#update-email-address").css('display', "block");
+    });
+    //Verify email popup box
+    $("#submit-emails").click(function() {
+      var newEmail = $("#new-email").val().toLowerCase();
+      var verifiedEmail = $("#verify-email").val().toLowerCase();
+      if (newEmail === verifiedEmail && checkCollegeEmail(newEmail) === true && checkCollegeEmail(verifiedEmail) === true) {
+        $("#email-updated").show();
+      } else {
+        $(".email-input-div").effect("shake");
+        $("#new-email").css("border", "2px solid #d0021b");
+        $("#verify-email").css("border", "2px solid #d0021b");
+        $(".emails-no-match").show();
+      }
+  });
+
 });
+
+
 
 //Get current date and add it to top of pages
 function numberToDay(numberDay) {
