@@ -644,6 +644,19 @@ table {
 .schedule-courses-header {
   color: #52a5af; }
 
+.settings {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #52a5af; }
+
+#logout-button {
+  margin-left: 10px; }
+
+.settings {
+  margin-right: 10px; }
+
 .enrolled-courses {
   padding: 17px 0px 0px 0px;
   display: flex;
@@ -1101,6 +1114,7 @@ select {
   font-weight: bold; }
 
 .reset-password {
+  display: none;
   border: 2px solid black;
   background-color: #fefefe;
   border: 1px solid #888;
@@ -1267,5 +1281,16 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+
+.emails-no-match {
+  position: absolute;
+  left: 280px;
+  bottom: 20px;
+  display: none; }
+  .emails-no-match p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #d0021b; }
 
 /*# sourceMappingURL=styles.css.map */
