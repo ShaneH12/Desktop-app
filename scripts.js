@@ -108,7 +108,6 @@ $(document).ready(function(){
         $("#forgot-password-box").hide();
       } else {
         $("#user-email").css("border", "2px solid red");
-        $("#not-stevens-email").show();
       }
     });
 
@@ -118,11 +117,12 @@ $(document).ready(function(){
         $("#street-grew-up-on").hide();
       } else {
         $("#street-input").css("border", "2px solid red");
+        $(".emails-no-match").show();
       }
     });
     $("#submit-color").click(function() {
       if ($("#user-favorite-color").val().toLowerCase() === "red") {
-        $(".password-success").show();
+        $("#sucessfull-password").show();
         $("#favorite-color-box").hide();
       } else {
         $("#user-favorite-color").css("border", "2px solid red");

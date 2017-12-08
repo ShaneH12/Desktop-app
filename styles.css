@@ -1132,6 +1132,25 @@ select {
   bottom: 100;
   right: 50; }
 
+.popup-progress-bar {
+  height: 10px;
+  width: 100%; }
+
+.first-popup-progress {
+  width: 33%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
+.second-popup-progress {
+  width: 75%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
+.third-popup-progress {
+  width: 100%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
 .current-grade-container {
   width: 215px;
   height: 275px;
