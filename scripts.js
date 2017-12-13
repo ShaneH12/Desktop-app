@@ -145,12 +145,18 @@ $(document).ready(function(){
       var verifiedEmail = $("#verify-email").val().toLowerCase();
       if (newEmail === verifiedEmail && checkCollegeEmail(newEmail) === true && checkCollegeEmail(verifiedEmail) === true) {
         $("#email-updated").show();
+        $("#alt-email").html(newEmail);
       } else {
         $(".email-input-div").effect("shake");
         $("#new-email").css("border", "2px solid #d0021b");
         $("#verify-email").css("border", "2px solid #d0021b");
         $(".emails-no-match").show();
       }
+  });
+  $("#close-alt-email").click(function() {
+    $("#email-updated").hide();
+    $("#update-email-address").hide();
+    $("#alt-email").html(newEmail);
   });
 
 });
