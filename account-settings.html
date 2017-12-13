@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title></title>
+  <title>Account Settings</title>
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,32 +10,32 @@
 </head>
 <body class="border">
   <aside class="side-navbar">
-      <img src="images/elithaxer.jpeg" id="profile-picture" />
-      <p class="profile-name">Henrietta Schmidtt</p>
-      <div class="sidebar-container-content">
-    <p class="profile-header">Academic Services</p>
-    <div class="profile-links">
-      <p><a href="dashboard.html">Academic Dashboard</a></p>
-      <p><a href="current-schedule-alt.html">Current Schedule</a></p>
-      <p><a href="grades-reporting.html">Grades &amp; Reporting</a></p>
-      <p><a href="upcoming-courses-no-classes.html">Upcoming Courses</a></p>
-    </div>
-    <p class="profile-header">College Information</p>
+    <img src="images/elithaxer.jpeg" id="profile-picture" />
+    <p class="profile-name">Henrietta Schmidtt</p>
+    <div class="sidebar-container-content">
+      <p class="profile-header">Academic Services</p>
+      <div class="profile-links">
+        <p><a href="dashboard.html">Academic Dashboard</a></p>
+        <p><a href="current-schedule-alt.html">Current Schedule</a></p>
+        <p><a href="grades-reporting.html">Grades &amp; Reporting</a></p>
+        <p><a href="upcoming-courses-no-classes.html">Upcoming Courses</a></p>
+      </div>
+      <p class="profile-header">College Information</p>
     <div class="profile-links">
       <p><a href="">College Calendar</a></p>
       <p><a href="">Financial Aid</a></p>
       <p><a href="">Student Services</a></p>
     </div>
-  </div>
+    </div>
   </aside>
 <section class="background-color">
   <header>
     <section class="header-margin">
-    <p class="header-date">Sunday, October 21, 2017</p>
-      <section class="date-logout-stack">
-        <p class="home-font"><a href="homepage.html" id="home-link">HOME</a><span class="schedule-courses-header"> > SETTINGS</span></p>
-        <p><a href="account-settings.html" class="settings">SETTINGS</a> | <span id="logout-button">LOG OUT?</span></p>
-      </section>
+      <p class="header-date">Sunday, October 21, 2017</p>
+        <section class="date-logout-stack">
+          <p class="home-font"><a href="homepage.html" id="home-link">HOME</a><span class="schedule-courses-header"> > SETTINGS</span></p>
+          <p><a href="account-settings.html" class="settings">SETTINGS</a> | <span id="logout-button">LOG OUT?</span></p>
+        </section>
     </section>
   </header>
   <div class="content-divider">
@@ -47,9 +47,9 @@
   <section class="account-settings-container">
     <div class="account-info-container">
       <div class="account-info">
-      <h5>HOME ADDRESS: <span>EDIT</span></h5>
-      <p>1234 Main Road, Lancaster, Pennsylvania 17603</p>
-    </div>
+        <h5>HOME ADDRESS: <span>EDIT</span></h5>
+        <p>1234 Main Road, Lancaster, Pennsylvania 17603</p>
+      </div>
     <div class="account-info">
       <h5>SCHOOL ADDRESS: <span>EDIT</span></h5>
       <p>1100 East Orange Street,<br>
@@ -74,12 +74,12 @@
       </div>
       <div class="account-info">
         <h5>ALTERNATE EMAIL: <span id="edit-email">EDIT</span></h5>
-        <p>henri.schm@gmail.com</p>
+        <p id="alt-email">henri.schm@gmail.com</p>
       </div>
     </div>
     <!--Update Alternate Email Address section-->
         <div class="reset-password" id="update-email-address">
-          <section class="classes-padding">
+        <section class="classes-padding">
           <h3 class="course-reg-title">Update Alternate Email Address</h3>
           <p>To update your alternate email address, please enter it twice below.</p>
           <div class="email-input-div">
@@ -97,27 +97,26 @@
     <!-- Logout popup box -->
     <div class="password-success reset-password" id="logout-box">
       <section class="classes-padding">
-      <h3 class="course-reg-title">Log Out</h3>
-      <p>Are you sure you’d like to log out?</p>
-      <div class="register-button" id="no-classes-button">
-        <a href="index.html"><span class="button-text" class="confirm-logout">LOG OUT</span></a>
-      </div>
-      <div id="resend-email">
-        <a href=""><h4>NEVERMIND</h4></a>
-      </div>
-    </section>
+        <h3 class="course-reg-title">Log Out</h3>
+        <p>Are you sure you’d like to log out?</p>
+        <div class="register-button" id="no-classes-button">
+          <a href="index.html"><span class="button-text" class="confirm-logout">LOG OUT</span></a>
+        </div>
+        <div id="resend-email">
+          <a href=""><h4>NEVERMIND</h4></a>
+        </div>
+      </section>
     </div>
     <!-- Email Updated -->
     <div class="reset-password" id="email-updated">
       <section class="classes-padding">
-      <h3 class="course-reg-title">Update Alternate Email Address</h3>
-      <p>Your email address has been updated. A verification email has been sent to your new email to finish the update process.</p>
-      <div class="register-button" id="no-classes-button">
-        <a href=""><span class="button-text">SUBMIT</span></a>
-      </div>
-    </section>
+        <h3 class="course-reg-title">Update Alternate Email Address</h3>
+        <p>Your email address has been updated. A verification email has been sent to your new email to finish the update process.</p>
+        <div class="register-button" id="no-classes-button">
+          <span class="button-text" id="close-alt-email">SUBMIT</span>
+        </div>
+      </section>
     </div>
-
     <script src="scripts.js"></script>
 </body>
 </html>
