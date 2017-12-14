@@ -11,95 +11,113 @@
       </script>
 </head>
 <body class="border">
-<section class="background-color">
-  <header>
-    <section class="header-margin">
-      <p class="header-date">Sunday, October 21, 2017</p>
-    </section>
-  </header>
-<div class="content-divider-index">
-</div>
-  <div class="login-container">
-    <div class="login-wrapper">
-    <h1 class="login-title">Thaddeus Stevens College of Technology</h1>
-      <h2 class="student-portal">Student Portal</h2>
-      <div class="div-container" id="user-input-container">
-        <input class="email-address-box" id="username-input"></input>
-        <input class="email-address-box" id="password-input" type="password"></input>
-        <p class="error" id="wrong-username-password">Wrong username and password</p>
+  <section class="background-color">
+    <header>
+      <section class="header-margin">
+        <p class="header-date">Sunday, October 21, 2017</p>
+      </section>
+    </header>
+  <div class="content-divider-index">
+  </div>
+    <div class="login-container">
+      <div class="login-wrapper">
+      <h1 class="login-title">Thaddeus Stevens College of Technology</h1>
+        <h2 class="student-portal">Student Portal</h2>
+        <div class="div-container" id="user-input-container">
+          <input class="email-address-box" id="username-input"></input>
+          <input class="email-address-box" id="password-input" type="password"></input>
+          <p class="error" id="wrong-username-password">Wrong username and password</p>
+        </div>
+      <div class="submit-password-container">
+        <div class="submit-button">
+          <p id="get-user-info">Submit</p>
+        </div>
+          <p class="forgot-password-text">Forgot Password?</p>
       </div>
-    <div class="submit-password-container">
-      <div class="submit-button">
-        <p id="get-user-info">Submit</p>
       </div>
-        <p class="forgot-password-text">Forgot Password?</p>
     </div>
+  </section>
+  <!--Forgot password popup boxes -->
+  <div class="reset-password" id="forgot-password-box">
+    <section class="classes-padding">
+    <h3 class="course-reg-title">Forgot Password</h3>
+    <p>Don’t worry, forgotten passwords happen to everyone from time to time.</p>
+    <p>What is your email address?</p>
+    <input type="email" name="insert-email" placeholder="Email Address" id="user-email">
+    <div class="register-button" id="no-classes-button">
+      <span class="button-text" id="submit-email">SUBMIT</span>
     </div>
+
+  </section>
   </div>
-</section>
-<!--Forgot password popup boxes -->
-<div class="reset-password" id="forgot-password-box">
-  <section class="classes-padding">
-  <h3 class="course-reg-title">Forgot Password</h3>
-  <p>Don’t worry, forgotten passwords happen to everyone from time to time.</p>
-  <p>What is your email address?</p>
-  <input type="email" name="insert-email" placeholder="Email Address" id="user-email">
-  <div class="register-button" id="no-classes-button">
-    <span class="button-text" id="submit-email">SUBMIT</span>
+  <!-- What street did you grow up on? -->
+  <div class="reset-password" id="street-grew-up-on">
+    <div class="popup-progress-bar">
+      <div class="first-popup-progress">
+
+      </div>
+    </div>
+    <section class="classes-padding">
+    <h3 class="course-reg-title">Forgot Password</h3>
+    <p>Great! Answer the following security questions to have a new password emailed to your account.</p>
+    <p>What was the street you grew up on?</p>
+    <input type="email" name="insert-email" id="street-input">
+    <div class="register-button" id="no-classes-button">
+      <span class="button-text" id="submit-street">SUBMIT</span>
+    </div>
+    <div class="emails-no-match">
+      <p>Incorrect Answer</p>
+    </div>
+  </section>
   </div>
-  <p id="not-stevens-email">Not a stevens email</p>
-</section>
-</div>
-<!-- What street did you grow up on? -->
-<div class="reset-password" id="street-grew-up-on">
-  <section class="classes-padding">
-  <h3 class="course-reg-title">Forgot Password</h3>
-  <p>Great! Answer the following security questions to have a new password emailed to your account.</p>
-  <p>What was the street you grew up on?</p>
-  <input type="email" name="insert-email" id="street-input">
-  <div class="register-button" id="no-classes-button">
-    <span class="button-text" id="submit-street">SUBMIT</span>
+  <!-- Favorite color -->
+  <div class="reset-password" id="favorite-color-box">
+    <div class="popup-progress-bar">
+      <div class="second-popup-progress">
+
+      </div>
+    </div>
+    <section class="classes-padding">
+    <h3 class="course-reg-title">Forgot Password</h3>
+    <p>Great! Answer the following security questions to have a new password emailed to your account.</p>
+    <p>What is your favorite color?</p>
+    <input type="email" name="insert-email" id="user-favorite-color">
+    <div class="register-button" id="no-classes-button">
+      <span class="button-text" id="submit-color">SUBMIT</span>
+    </div>
+  </section>
   </div>
-</section>
-</div>
-<!-- Favorite color -->
-<div class="reset-password" id="favorite-color-box">
-  <section class="classes-padding">
-  <h3 class="course-reg-title">Forgot Password</h3>
-  <p>Great! Answer the following security questions to have a new password emailed to your account.</p>
-  <p>What is your favorite color?</p>
-  <input type="email" name="insert-email" id="user-favorite-color">
-  <div class="register-button" id="no-classes-button">
-    <span class="button-text" id="submit-color">SUBMIT</span>
+  <!-- Password was reset -->
+  <div class="password-success reset-password" id="sucessfull-password">
+    <div class="popup-progress-bar">
+      <div class="third-popup-progress">
+
+      </div>
+    </div>
+    <section class="classes-padding">
+    <h3 class="course-reg-title">Forgot Password</h3>
+    <p>Success! We’ve confirmed your identity. A new password is being sent to the email address on file.</p>
+    <div class="register-button" id="no-classes-button">
+      <span class="button-text" id="okay-reset">OKAY</span>
+    </div>
+    <div id="resend-email">
+      <a href=""><h4>RESEND EMAIL</h4></a>
+    </div>
+  </section>
   </div>
-</section>
-</div>
-<!-- Password was reset -->
-<div class="password-success reset-password">
-  <section class="classes-padding">
-  <h3 class="course-reg-title">Forgot Password</h3>
-  <p>Success! We’ve confirmed your identity. A new password is being sent to the email address on file.</p>
-  <div class="register-button" id="no-classes-button">
-    <span class="button-text" id="okay-reset">OKAY</span>
+  <!-- Logout popup box -->
+  <div class="password-success reset-password" id="logout-box">
+    <section class="classes-padding">
+    <h3 class="course-reg-title">Log Out</h3>
+    <p>Are you sure you’d like to log out?</p>
+    <div class="register-button" id="no-classes-button">
+      <a href=""><span class="button-text">LOG OUT</span></a>
+    </div>
+    <div id="resend-email">
+      <a href=""><h4>NEVERMIND</h4></a>
+    </div>
+  </section>
   </div>
-  <div id="resend-email">
-    <a href=""><h4>RESEND EMAIL</h4></a>
-  </div>
-</section>
-</div>
-<!-- Logout popup box -->
-<div class="password-success reset-password" id="logout-box">
-  <section class="classes-padding">
-  <h3 class="course-reg-title">Log Out</h3>
-  <p>Are you sure you’d like to log out?</p>
-  <div class="register-button" id="no-classes-button">
-    <a href=""><span class="button-text">LOG OUT</span></a>
-  </div>
-  <div id="resend-email">
-    <a href=""><h4>NEVERMIND</h4></a>
-  </div>
-</section>
-</div>
 <script src="scripts.js"></script>
 </body>
 </html>

@@ -1132,6 +1132,25 @@ select {
   bottom: 100;
   right: 50; }
 
+.popup-progress-bar {
+  height: 10px;
+  width: 100%; }
+
+.first-popup-progress {
+  width: 33%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
+.second-popup-progress {
+  width: 75%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
+.third-popup-progress {
+  width: 100%;
+  height: 10px;
+  background-color: #3bb9ba; }
+
 .current-grade-container {
   width: 215px;
   height: 275px;
@@ -1300,5 +1319,24 @@ select {
     font-size: 14px;
     letter-spacing: 0.2px;
     color: #d0021b; }
+
+.save-button {
+  width: 100px;
+  height: 45px;
+  background-color: #3bb9ba;
+  margin-right: 40px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right; }
+
+.save-button .button-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

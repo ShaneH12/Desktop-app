@@ -108,7 +108,6 @@ $(document).ready(function(){
         $("#forgot-password-box").hide();
       } else {
         $("#user-email").css("border", "2px solid red");
-        $("#not-stevens-email").show();
       }
     });
 
@@ -118,11 +117,12 @@ $(document).ready(function(){
         $("#street-grew-up-on").hide();
       } else {
         $("#street-input").css("border", "2px solid red");
+        $(".emails-no-match").show();
       }
     });
     $("#submit-color").click(function() {
       if ($("#user-favorite-color").val().toLowerCase() === "red") {
-        $(".password-success").show();
+        $("#sucessfull-password").show();
         $("#favorite-color-box").hide();
       } else {
         $("#user-favorite-color").css("border", "2px solid red");
@@ -145,12 +145,18 @@ $(document).ready(function(){
       var verifiedEmail = $("#verify-email").val().toLowerCase();
       if (newEmail === verifiedEmail && checkCollegeEmail(newEmail) === true && checkCollegeEmail(verifiedEmail) === true) {
         $("#email-updated").show();
+        $("#alt-email").html(newEmail);
       } else {
         $(".email-input-div").effect("shake");
         $("#new-email").css("border", "2px solid #d0021b");
         $("#verify-email").css("border", "2px solid #d0021b");
         $(".emails-no-match").show();
       }
+  });
+  $("#close-alt-email").click(function() {
+    $("#email-updated").hide();
+    $("#update-email-address").hide();
+    $("#alt-email").html(newEmail);
   });
 
 });
